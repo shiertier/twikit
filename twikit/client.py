@@ -69,13 +69,16 @@ class Client:
         Base headers for Twitter API requests.
         """
         headers = {
-            'authorization': f'Bearer {self._token}',
-            'content-type': 'application/json',
             'Accept-Language': self.language,
-            'X-Twitter-Auth-Type': 'OAuth2Session',
+            'Authorization:': f'Bearer {self._token}',
+            'content-type': 'application/json',
+            "Cookie": 'guest_id_marketing=v1%3A170943939114632117; guest_id_ads=v1%3A170943939114632117; guest_id=v1%3A170943939114632117; gt=1764142786620846119; _ga=GA1.2.1526262720.1709439311; _gid=GA1.2.331711290.1709439311; external_referer=padhuUp37zjgzgv1mFWxJ12Ozwit7owX|0|8e8t2xd8A2w%3D; personalization_id="v1_D268dZy1s1yJH7/aC3t3bQ=="',
+            "Origin": "https://twitter.com",
+            "Referer": "https://twitter.com/",
+            "X-Client-Transaction-Id": "BR8pcAMyvhsVCfaEEuCR0dq9NwW1TbL253E86uM43jTPH+cLfHw+glQfQO5a/MGudPyfkQQ/CfqRBqhfR6ha1QzLTfFKBA",
             'X-Twitter-Active-User': 'yes',
+            "X-Guest-Token": 1764142786620846119,
             'X-Twitter-Client-Language': self.language,
-            'Referer': 'https://twitter.com/',
             'User-Agent': self._user_agent,
         }
 
