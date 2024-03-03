@@ -77,7 +77,7 @@ class Client:
             "Referer": "https://twitter.com/",
             "X-Client-Transaction-Id": "BR8pcAMyvhsVCfaEEuCR0dq9NwW1TbL253E86uM43jTPH+cLfHw+glQfQO5a/MGudPyfkQQ/CfqRBqhfR6ha1QzLTfFKBA",
             'X-Twitter-Active-User': 'yes',
-            "X-Guest-Token": 1764142786620846119,
+            "X-Guest-Token": "1764142786620846119",
             'X-Twitter-Client-Language': self.language,
             'User-Agent': self._user_agent,
         }
