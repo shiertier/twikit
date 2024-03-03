@@ -102,7 +102,7 @@ class User:
         self.is_blue_verified: bool = data['is_blue_verified']
         self.verified: bool = legacy['verified']
         self.possibly_sensitive: bool = legacy['possibly_sensitive']
-        self.can_dm: bool = legacy['can_dm']
+        #self.can_dm: bool = legacy['can_dm']
         self.can_media_tag: bool = legacy['can_media_tag']
         self.want_retweets: bool = legacy['want_retweets']
         self.default_profile: bool = legacy['default_profile']
