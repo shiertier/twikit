@@ -70,7 +70,7 @@ class Client:
         """
         headers = {
             'Accept-Language': self.language,
-            'Authorization:': f'Bearer {self._token}',
+            'authorization:': f'Bearer {self._token}',
             'content-type': 'application/json',
             "Cookie": 'guest_id_marketing=v1%3A170943939114632117; guest_id_ads=v1%3A170943939114632117; guest_id=v1%3A170943939114632117; gt=1764142786620846119; _ga=GA1.2.1526262720.1709439311; _gid=GA1.2.331711290.1709439311; external_referer=padhuUp37zjgzgv1mFWxJ12Ozwit7owX|0|8e8t2xd8A2w%3D; personalization_id="v1_D268dZy1s1yJH7/aC3t3bQ=="',
             "Origin": "https://twitter.com",
